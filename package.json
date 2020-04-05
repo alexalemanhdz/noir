@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alexalemanhdz/noir/issues"
   },
-  "homepage": "https://github.com/alexalemanhdz/noir#readme"
+  "homepage": "https://github.com/alexalemanhdz/noir#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
