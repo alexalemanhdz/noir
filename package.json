@@ -19,6 +19,8 @@
   "homepage": "https://github.com/alexalemanhdz/noir#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "kind-of": ">=6.0.3",
+    "acorn": ">=5.7.4"
   }
 }
