@@ -56,6 +56,9 @@ body {
   font-size: 14px;
   color: black;
 }
+#form {
+  margin-bottom: 0;
+}
 #search {
   height: 20px;
   width: 500px;
