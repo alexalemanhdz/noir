@@ -186,38 +186,38 @@
     };
   </script>
 </div>
-  <div class="media">
-    <video id="video" autoplay="autoplay" loop="loop">
-      <source src="vid.webm" type="video/webm" />
-    </video>
-    <script type="application/javascript">
-      document.getElementById("video").ontimeupdate = function() {
-        if (this.currentTime >= 0) {
-          this.style.marginLeft = "-20px"
-        }
-        if (this.currentTime > 0.6) {
-          this.style.marginLeft = "50px"
-        }
-        if (this.currentTime > 1.2) {
-          this.style.marginLeft = "130px"
-        }
-        if (this.currentTime > 1.7) {
-          this.style.marginLeft = "100px"
-        }
-        if (this.currentTime > 2.4) {
-          this.style.marginLeft = "-20px"
-        }
-        if (this.currentTime > 3.0) {
-          this.style.marginLeft = "-210px"
-        }
-        if (this.currentTime > 3.8) {
-          this.style.marginLeft = "50px"
-        }
-        if (this.currentTime > 4.4) {
-          this.style.marginLeft = "100px"
-        }
+<div class="media">
+  <video id="video" autoplay="autoplay" loop="loop">
+    <source src="vid.webm" type="video/webm" />
+  </video>
+  <script type="application/javascript">
+    document.getElementById("video").ontimeupdate = function() {
+      if (this.currentTime >= 0) {
+        this.style.marginLeft = "-20px"
       }
-    </script>
-  </div>
+      if (this.currentTime > 0.6) {
+        this.style.marginLeft = "50px"
+      }
+      if (this.currentTime > 1.2) {
+        this.style.marginLeft = "130px"
+      }
+      if (this.currentTime > 1.7) {
+        this.style.marginLeft = "100px"
+      }
+      if (this.currentTime > 2.4) {
+        this.style.marginLeft = "-20px"
+      }
+      if (this.currentTime > 3.0) {
+        this.style.marginLeft = "-210px"
+      }
+      if (this.currentTime > 3.8) {
+        this.style.marginLeft = "50px"
+      }
+      if (this.currentTime > 4.4) {
+        this.style.marginLeft = "100px"
+      }
+    }
+  </script>
+</div>
 </body>
 </html>

@@ -1,0 +1,39 @@
+html
+  head
+    title noir
+    meta(charset="utf-8")
+  body
+    div(class="background")
+    div(class="left-side")
+      div(class="clock")
+        p(id="time")
+      div(class="links")
+        div(class="links-list")
+          a(class="links-list-item" href="https://www.facebook.com/") Facebook
+          a(class="links-list-item" href="https://twitter.com/") Twitter
+          a(class="links-list-item" href="https://www.instagram.com/") Instagram
+          a(class="links-list-item" href="https://www.youtube.com/") YouTube
+          a(class="links-list-item" href="https://gfycat.com/") Gfycat
+          a(class="links-list-item" href="https://www.reddit.com/") reddit
+          a(class="links-list-item" href="https://mail.google.com/") Gmail
+        div(class="links-list")
+          a(class="links-list-item" href="https://rateyourmusic.com/") RYM
+          a(class="links-list-item" href="https://www.goodreads.com/") Goodreads
+          a(class="links-list-item" href="http://www.imdb.com/") IMDb
+          a(class="links-list-item" href="http://www.last.fm/") Last.fm
+          a(class="links-list-item" href="http://gen.lib.rus.ec/") LibGen
+          a(class="links-list-item" href="https://mega.nz/") MEGA
+          a(class="links-list-item" href="https://play.spotify.com/") Spotify
+          a(class="links-list-item" href="https://www.netflix.com/") Netflix
+        div(class="links-list")
+          a(class="links-list-item" href="https://gitlab.com/") GitLab
+          a(class="links-list-item" href="https://github.com/") GitHub
+          a(class="links-list-item" href="https://www.wolframalpha.com/") Wolfram
+          a(class="links-list-item" href="http://palettegenerator.com/") Palettes
+          a(class="links-list-item" href="https://coolors.co/") Coolors
+          a(class="links-list-item" href="http://startpages.github.io/") Startpages
+      form(id="form" method="get" autocomplete="off")
+        input(id="search" type="text" name="q" placeholder="-u | -h | -4 | -3 | -g" autofocus="autofocus")
+    div(class="media")
+      video(id="video" autoplay="autoplay" loop="loop")
+        source(src="vid.webm" type="video/webm")
